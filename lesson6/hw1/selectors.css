@@ -1,0 +1,19 @@
+img[src$='.jpg'] {
+    margin-left: 50px;
+}
+
+a[href^='https://'] {
+    color: green;
+}
+
+span[lang|='en'] {
+    font-size: 28px;
+}
+
+[data-description*="even"] {
+    font-size: 24px;
+}
+
+[data-description~="even"] {
+    background-color: gray;
+}
