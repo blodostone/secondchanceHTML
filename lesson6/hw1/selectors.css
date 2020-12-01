@@ -17,3 +17,7 @@ span[lang|='en'] {
 [data-description~="even"] {
     background-color: gray;
 }
+
+img[alt='Pollution'] {
+    border: 5px dashed red;
+}
