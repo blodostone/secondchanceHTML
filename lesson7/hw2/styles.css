@@ -43,9 +43,9 @@ em {
     background-color: gray;
 }
 
-div:nth-child(3)>p {
+/* div:nth-child(3)>p {
     background-color: yellow;
-}
+} */
 
 div:nth-child(5)>p:nth-child(3) {
     border: 5px solid white;
