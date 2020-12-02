@@ -77,6 +77,11 @@ header {
     font-weight: 700;
 }
 
+.news {
+    width: 20vw;
+    padding: 0.5em;
+}
+
 footer {
     text-align: center;
     background-color: #e5e5e5;
