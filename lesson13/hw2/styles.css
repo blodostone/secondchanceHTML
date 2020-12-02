@@ -1,0 +1,6 @@
+body {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+}
