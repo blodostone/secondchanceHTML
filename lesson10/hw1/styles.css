@@ -6,7 +6,8 @@
     display: flex;
     height: 300px;
     width: 20%;
-    float: left;
+    /* flex-wrap: nowrap; */
+    flex-grow: 1;
 }
 
 .block_red {
