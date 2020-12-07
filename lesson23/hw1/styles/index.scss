@@ -1,0 +1,76 @@
+@import 'layout.scss';
+.navigation {
+    display: flex;
+    background-color: #ff7f50;
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.products_list {
+    display: flex;
+    background-color: #006400;
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.news {
+    display: flex;
+    background-color: #0ff;
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.other {
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #faebd7;
+    margin: auto;
+}
+
+// @include for-small {
+//     .second {
+//         display: flex;
+//         flex-grow: 2;
+//     }
+//     .calc-for-two {
+//         width: calc(100vw/2);
+//     }
+// }
+@include for-medium {
+    .second {
+        display: flex;
+        flex-grow: 2;
+    }
+    .calc-for-two {
+        width: calc(100vw/2);
+    }
+}
+
+@include for-ladge {
+    .column {
+        display: flex;
+    }
+    .calc-for-three {
+        width: calc(100vw/3);
+    }
+}
+
+// @media screen and (min-width: 600px) {
+//     .second {
+//         display: flex;
+//         flex-grow: 2;
+//     }
+//     .calc-for-two {
+//         width: calc(100vw/2);
+//     }
+// }
+// @media screen and (min-width: 900px) {
+//     .column {
+//         display: flex;
+//     }
+//     .calc-for-three {
+//         width: calc(100vw/3);
+//     }
+// }
